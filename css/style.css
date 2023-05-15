@@ -1,0 +1,265 @@
+body
+{
+    margin:0;
+}
+
+#main
+{
+    margin:auto;
+    font-family: 'Jost', sans-serif;
+    background-color: black;
+}
+
+#navbar
+{
+    display:flex;
+    column-gap:10px;
+    background: transparent;
+    margin:0;
+    padding:15px;
+    color:#fff;
+}
+
+#navbar li
+{
+    flex-flow:column wrap;
+    list-style-type: none;
+}
+
+#navbar a
+{
+    text-decoration: none;
+    color:inherit;
+    font-size: 1.5em;
+}
+
+div#describe-block
+{
+  background: rgb(213,164,44);
+  background: radial-gradient(circle, rgba(248, 246, 227, 0.63) 0%, rgba(50, 88, 128, 0.63) 30%, rgba(0,0,0,1) 49%);
+
+    text-align: center;
+    padding-bottom: 20%;
+    color: #fff;
+    border-bottom: 2px solid black;
+}
+
+
+
+div#polyglot-whatis-block
+{
+  background: rgb(0,0,0);
+
+  text-align: center;
+    padding: 1.6em 10%;
+    text-align: center;
+    color: #fff;
+}
+
+div#polyglot-whatis-block p.polyglot-whatis-paragraph
+{
+  font-size: 1.5em;
+  margin-bottom: 20px;
+}
+
+#polyglot-contact-us-title
+{
+  font-weight: bold;
+  font-size: 3.7em;
+  margin:0;
+  letter-spacing: 4.5px;
+  margin-bottom: 30px;
+}
+
+div#polyglot-contact-us-block
+{
+  background: rgb(1,3,6);
+  background: linear-gradient(0deg, rgba(1,3,6,1) 2%, rgba(22,62,106,0.4990371148459384) 42%, rgba(0,0,0,1) 95%);
+  text-align: center;
+    padding: 4.1em 10% 0.2em 10%;
+    text-align: center;
+    color: #fff;
+    height: 280px;
+}
+
+#polyglot-email{
+  font-size: 1.5em;
+  margin-bottom: 1.2em;
+}
+
+#contact-us-button
+{
+  margin-top: 50px;
+  min-width: 20%;
+  max-width: 150px;
+  min-height: 12%;
+  max-height: 120px;
+  font-size: 2.5em;
+  background: transparent;
+  opacity: 0.8;
+  border: 0px solid #fff;
+  border-radius: 30px;
+  cursor: pointer;
+  color: #fff;
+}
+
+#contact-us-button:hover{
+  opacity: 1;
+}
+
+#my-cont {
+  padding-top: 130px;
+}
+
+#my-cont img {
+  width: 250px;
+  height: auto;
+}
+
+p#polyglot-title
+{
+    font-weight: bold;
+    font-size: 5.7em;
+    margin:0;
+    letter-spacing: 4.5px;
+}
+
+p#polyglot-description
+{
+    font-size: 2em;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+  }
+  .container {
+    display: inline-flex;
+    font-weight: bold;
+    vertical-align: top;
+  }
+  .main {
+    background: deepskyblue;
+    flex: 1;
+    text-align: center;
+  }
+  .image {
+    background: hotpink;
+    flex: 1;
+    height: 100%;
+  }
+ 
+
+  .polyglot-whatis-paragraph{
+   border-top: 1px solid gray;
+   padding: 30px 0 5% 0;
+   display: grid;
+   gap: 30px;
+   grid-template-columns: 3fr 5fr;
+  }
+
+  .polyglot-whatis-paragraph-title {
+    font-size: 4em;
+    margin-bottom: 0.5em;
+  }
+
+  .polyglot-whatis-paragraph-description {
+    font-size: 1.5rem;
+  }
+
+  .polyglot-whatis-paragraph-content {
+    text-align: left;
+  }
+  
+
+  .polyglot-whatis-paragraph img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5%;
+  }
+
+  .rev {
+    grid-template-columns: 3fr 3fr;
+  }
+
+  .rev .polyglot-whatis-paragraph-content {
+    order: 2;
+  }
+
+  .rev .polyglot-whatis-paragraph-image {
+    order: 1;
+  }
+
+  
+  .transition-block {
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(91,6,92,1) 53%, rgba(0,255,201,1) 100%);
+    height: 1px;
+  }
+
+  @media only screen and (max-width: 700px) {
+
+    p#polyglot-title
+    {
+        font-weight: bold;
+        font-size: 3.7em;
+        margin:0;
+        letter-spacing: 4.5px;
+    }
+
+    #contact-us-button
+    {
+      font-size: 1.6em;
+    }
+    
+    p#polyglot-description
+    {
+        font-size: 1.4em;
+    }
+    
+
+    .polyglot-whatis-paragraph{
+      grid-template-columns: 1fr;
+    }
+
+    #polyglot-contact-us-title {
+      font-size: 2.3em;
+    }
+
+    .polyglot-whatis-paragraph-content {
+      text-align: center;
+    }
+
+    .polyglot-whatis-paragraph-content {
+      order: 2;
+    }
+  
+     .polyglot-whatis-paragraph-image {
+      order: 1;
+    }
+    
+    .polyglot-whatis-paragraph-title {
+      font-size: 2.0em;
+      margin-bottom: 0.5em;
+    }
+  
+    .polyglot-whatis-paragraph-description {
+      font-size: 1.2em;
+    }
+
+    div#polyglot-contact-us-block {
+      padding-top: 5em;
+    }
+  }
+
+  #polyglot-toolbar-logo-img
+  {
+    width: 40px;
+    height: auto;
+  }
+
+  #polyglot-footer-img
+  {
+    width: 30px;
+    height: auto;
+    margin-top: 10px;
+  }
