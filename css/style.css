@@ -62,6 +62,11 @@ div#polyglot-whatis-block p.polyglot-whatis-paragraph
   margin-bottom: 20px;
 }
 
+.polyglot-whatis-title
+{
+    font-size: 2em;
+}
+
 #polyglot-contact-us-title
 {
   font-weight: bold;
